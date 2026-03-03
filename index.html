@@ -1,1 +1,274 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GlowNest | Handmade Candles</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins', sans-serif;
+}
+
+body{
+background:#fffaf8;
+color:#333;
+}
+
+/* HEADER */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:white;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:24px;
+font-weight:600;
+color:#e88aa2;
+}
+
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:#444;
+font-weight:500;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#e88aa2;
+}
+
+/* HERO */
+
+.hero{
+height:70vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(to bottom,#ffeef3,#fffaf8);
+padding:20px;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:18px;
+color:#666;
+}
+
+/* PRODUCTS */
+
+.products{
+padding:60px 8%;
+text-align:center;
+}
+
+.products h2{
+margin-bottom:30px;
+font-size:28px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 6px 18px rgba(0,0,0,0.08);
+transition:0.4s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card img{
+width:100%;
+height:240px;
+object-fit:cover;
+}
+
+.card h3{
+padding:15px;
+font-size:16px;
+}
+
+/* ORDER BUTTON */
+
+.order-btn{
+display:inline-block;
+margin-bottom:15px;
+padding:8px 16px;
+background:#e88aa2;
+color:white;
+border-radius:20px;
+text-decoration:none;
+font-size:14px;
+transition:0.3s;
+}
+
+.order-btn:hover{
+background:#d96b86;
+}
+
+/* ABOUT */
+
+.about{
+background:#fff0f5;
+padding:60px 10%;
+text-align:center;
+}
+
+.about p{
+max-width:700px;
+margin:auto;
+color:#555;
+line-height:1.6;
+}
+
+/* CONTACT */
+
+.contact{
+padding:60px 10%;
+text-align:center;
+}
+
+.contact a{
+color:#e88aa2;
+text-decoration:none;
+font-weight:500;
+}
+
+/* FOOTER */
+
+footer{
+background:#ffe3ea;
+padding:20px;
+text-align:center;
+margin-top:40px;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+.hero h1{
+font-size:30px;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">GlowNest</div>
+<nav>
+<a href="#products">Products</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Handmade Candles Made With Love 🕯️</h1>
+<p>Luxury aesthetic candles crafted in Rupandehi, Manigram</p>
+</section>
+
+<section class="products" id="products">
+<h2>Our Collection</h2>
+
+<div class="grid">
+
+<div class="card">
+<img src="bear-candle.jpg">
+<h3>Rose Bear Candle</h3>
+<a class="order-btn" href="https://wa.me/97798XXXXXXXX">Order Now</a>
+</div>
+
+<div class="card">
+<img src="coffee-candle.jpg">
+<h3>Iced Coffee Candle</h3>
+<a class="order-btn" href="https://wa.me/97798XXXXXXXX">Order Now</a>
+</div>
+
+<div class="card">
+<img src="collection-candles.jpg">
+<h3>Decor Candle Set</h3>
+<a class="order-btn" href="https://wa.me/97798XXXXXXXX">Order Now</a>
+</div>
+
+<div class="card">
+<img src="flower-candle.jpg">
+<h3>Flower Jar Candle</h3>
+<a class="order-btn" href="https://wa.me/97798XXXXXXXX">Order Now</a>
+</div>
+
+<div class="card">
+<img src="matcha-candle.jpg">
+<h3>Matcha Latte Candle</h3>
+<a class="order-btn" href="https://wa.me/97798XXXXXXXX">Order Now</a>
+</div>
+
+<div class="card">
+<img src="cream-candle.jpg">
+<h3>Classic Cream Candle</h3>
+<a class="order-btn" href="https://wa.me/97798XXXXXXXX">Order Now</a>
+</div>
+
+</div>
+</section>
+
+<section class="about" id="about">
+<h2>About GlowNest</h2>
+<p>
+GlowNest creates handmade candles designed to bring warmth,
+calmness, and aesthetic beauty into your home.
+Each candle is crafted carefully with love and creativity.
+</p>
+</section>
+
+<section class="contact" id="contact">
+<h2>Contact</h2>
+<p>📍 Rupandehi, Manigram</p>
+<p>📧 glow****123@gmail.com</p>
+<p>
+Instagram:
+<a href="https://www.instagram.com/glow61126" target="_blank">
+@glow61126
+</a>
+</p>
+</section>
+
+<footer>
+© 2026 GlowNest Candles — Handmade with Love
+</footer>
+
+</body>
+</html>
